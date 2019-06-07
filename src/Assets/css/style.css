@@ -1,0 +1,82 @@
+* -----------------------------------
+  MARGINS E PADDINGS DEFAULT
+-------------------------------------- */
+.mr-xs{ margin-right:3px;}
+.mr-sm{ margin-right:5px;}
+.mr-md{ margin-right:10px;}
+.mr-lg{ margin-right:15px;}
+.ml-xs{ margin-left:3px;}
+.ml-sm{ margin-left:5px !important}
+.ml-md{ margin-left:10px;}
+.ml-lg{ margin-left:15px;}
+.mt-xs{ margin-top:3px;}
+.mt-sm{ margin-top:5px;}
+.mt-md{ margin-top:10px;}
+.mt-lg{ margin-top:15px;}
+.mt-40{ margin-top:40px;}
+.mb-xs{ margin-bottom:3px;}
+.mb-sm{ margin-bottom:5px;}
+.mb-md{ margin-bottom:10px;}
+.mb-lg{ margin-bottom:15px;}
+.ma-xs{ margin:3px;}
+.ma-sm{ margin:5px;}
+.ma-md{ margin:10px;}
+.ma-lg{ margin:15px;}
+
+.pr-xs{ padding-right:3px;}
+.pr-sm{ padding-right:5px;}
+.pr-md{ padding-right:10px;}
+.pr-lg{ padding-right:15px!important;}
+
+.pl-xs{ padding-left:3px;}
+.pl-sm{ padding-left:5px;}
+.pl-md{ padding-left:10px;}
+.pl-lg{ padding-left:15px!important;}
+
+.pt-xs{ padding-top:3px;}
+.pt-sm{ padding-top:5px!important;}
+.pt-md{ padding-top:10px!important;}
+.pt-lg{ padding-top:15px;}
+
+.pb-xs{ padding-bottom:3px;}
+.pb-sm{ padding-bottom:5px;}
+.pb-md{ padding-bottom:10px;}
+.pb-lg{ padding-bottom:15px;}
+
+.pa-xs{ padding:3px;}
+.pa-sm{ padding:5px;}
+.pa-md{ padding:10px;}
+.pa-lg{ padding:15px;}
+.np{padding: 0 !important;}
+
+.nm{margin: 0 !important;}
+.nmr{margin-right: 0 !important;}
+.nml{margin-left: 0 !important;}
+.nmt{margin-top: 0 !important;}
+.nmb{margin-bottom: 0 !important;}
+
+.np{padding: 0 !important;}
+.npr{padding-right: 0 !important;}
+.npl{padding-left: 0 !important;}
+.npt{padding-top: 0 !important;}
+.npb{padding-bottom: 0 !important;}
+
+.npx {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.bt-xs{border-top:1px solid #ccc !important;}
+.bb-xs{border-bottom:1px solid #ccc !important;}
+.bl-xs{border-left:1px solid #ccc !important;}
+.br-xs{border-right:0px solid #ccc !important;}
+.ba-xs{border:1px solid #ccc !important;}
+.nbl{border-left:0 !important;}
+.nbr{border-right:0 !important;}
+.nba{border:0 !important}
+
+.bra-xs{ border-radius: 2px;}
+.bra-sm{ border-radius: 4px;}
+.bra-md{ border-radius: 6px;}
+.bra-lg{ border-radius: 8px;}
+.nbra{ border-radius: 0px!important;}
