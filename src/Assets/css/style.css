@@ -96,5 +96,23 @@
 }
 
 .alert-danger{
-  display: none;
+  display: none!important;
+}
+
+/* MENU */
+
+.containerMenu{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+/* LISTAGEM ANIMAL */
+.containerListagemAnimais{
+  position: relative;
+  top: 150px;
+  border-top:1px solid #ccc !important;
+  border-bottom:1px solid #ccc !important;
 }
