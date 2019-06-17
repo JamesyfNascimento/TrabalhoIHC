@@ -1,16 +1,16 @@
 tdUsuario = "";
-tdAnimais = "";
+ListaDeAnimais = "";
 $(function(){
 	//inicialisa lista de usuario
 	tdUsuario = localStorage.getItem("tdUsuario");// Recupera os usuarios armazenados
     tdUsuario = JSON.parse(tdUsuario); // Converte string para objeto
     if(tdUsuario == null) // Caso não haja conteúdo, iniciamos um vetor vazio
-		tdUsuario = [];
+			tdUsuario = [];
 
-	tdAnimais = localStorage.getItem("tdAnimais");// Recupera os animais armazenados
-	tdAnimais = JSON.parse(tdAnimais); // Converte string para objeto
-	if(tdAnimais == null) // Caso não haja conteúdo, iniciamos um vetor vazio
-		tdAnimais = [];
+	ListaDeAnimais = localStorage.getItem("ListaDeAnimais");// Recupera os animais armazenados
+	ListaDeAnimais = JSON.parse(ListaDeAnimais); // Converte string para objeto
+	if(ListaDeAnimais == null) // Caso não haja conteúdo, iniciamos um vetor vazio
+		ListaDeAnimais = [];
 
 
 
@@ -96,5 +96,5 @@ function registrosAnimaisSimulacao(){
 		}
 	];
 
-	localStorage.setItem("tdAnimais", JSON.stringify(animais));
+	localStorage.setItem("ListaDeAnimais", JSON.stringify(animais));
 }
