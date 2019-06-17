@@ -95,8 +95,8 @@
   transform: translate(0%,-30%);
 }
 
-.alert-danger{
-  display: none!important;
+.alert-danger, .alert-success{
+  display: none;
 }
 
 /* MENU */

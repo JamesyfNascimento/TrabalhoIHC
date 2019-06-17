@@ -31,18 +31,24 @@ $("#formLogin").on("submit", function (e){
 		if(loginBD.Email == login.Email && loginBD.Senha == login.Senha){
 			logado = true;
 			$(".alert").css("display","block");
+			$(".alert-danger").css("display","none");
+			$(".alert-success").css("display","block");
 			setTimeout(function(){ 
 				$(".alert").css("display","none");
+				$(".alert-success").css("display","none");
 			}, 7000);
 			window.location.href = '../Views/home.html';	
 		}
 	  });
 
 	  if(!logado){
-		$(".alert-danger").css("display","block");
-		setTimeout(function(){ 
-			$(".alert").css("display","none");
-		}, 5000);
+			$(".alert").css("display","block");
+			$(".alert-success").css("display","none");
+			$(".alert-danger").css("display","block");
+			setTimeout(function(){ 
+				$(".alert").css("display","none");
+				$(".alert-danger").css("display","none");
+			}, 5000);
 	  }
 });
 
