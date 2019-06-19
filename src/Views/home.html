@@ -19,7 +19,6 @@
 	<script src="../Assets/Js/jquery-3.4.1.min.js"></script>
 	<script src="../Assets/Js/bootstrapjs/bootstrap.min.js"></script>
 
-
 	
 </head>
 <body class="text-center" >
@@ -31,8 +30,22 @@
             <div class="card card-body col-12">
                 <div class="row mt-lg mb-lg">
                     <div class="col-12">
-                        <button type="button" id="btnAddAnimal" class="btn btn-secondary btn-block">Adicionar Animal</button>
+                        <button type="button" id="btnAddAnimal" class="btn btn-secondary btn-block" onclick = "windows.location('../Controle/cadAnimal.php');">Adicionar Animal</button>
                     </div>
+                    
+                    <!-- nao redireciona para o login/Cadastro sainda -->
+                    <div class="col-12">
+                        <button type="button" id="btnCadUsuario" class="btn btn-secondary btn-block" onclick = "windows.location('../login.html');">Cadastrar Usuario</button>
+                    </div>
+                    <div class="col-12">
+                        <button type="button" id="btnCadOng" class="btn btn-secondary btn-block" >Cadastrar ONG</button>
+                    </div>
+                    
+                    <!-- nao redireciona para o login/Cadastro ainda -->
+                    <div class="col-12">
+                        <button type="button" id="btnLogin" class="btn btn-secondary btn-block" onclick = "windows.location('../login.html');">Login</button>
+                    </div>
+                   
                     <!-- <div class="col-6">
                         <button type="button" style="height: 100%;" class="btn btn-success  btn-block">Mapa</button>
                     </div> -->
