@@ -4,15 +4,6 @@ $(function(){
     listagemAnimal();
 });
 
-/*window.onload = function() {
-	var url = window.location.href;
-	console.log("tatata");
-  if(url.searchParams.get("") == "sim"){
-	  console.log("teste");
-	  $("#logInOut").html("Sair");
-  }
-};*/
-
 function listagemAnimal(){
     //inicialisa lista de usuario
     ListaDeAnimais = localStorage.getItem("ListaDeAnimais");// Recupera os animais armazenado

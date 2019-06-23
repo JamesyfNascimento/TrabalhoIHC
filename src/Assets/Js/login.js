@@ -37,7 +37,7 @@ $("#formLogin").on("submit", function (e){
 				$(".alert").css("display","none");
 				$(".alert-success").css("display","none");
 			}, 7000);
-			window.location.href = '../Views/home.html?logged=true';	
+			window.location.href = '../Views/home.html';	
 		}
 	  });
 
@@ -56,10 +56,12 @@ $("#formLogin").on("submit", function (e){
 $("#formCadastrar").on("submit", function (e){
 	e.preventDefault();
 	console.log("Cadastrando");
+	//console.log($('input[name=inlineRadioOptions]:checked', '#formCadastrar').val());
 	var usuario = JSON.stringify({
 		Nome   : $("#inputNome").val(),
 		Email  : $("#inputEmail").val(),
-		Senha : $("#inputPassword").val()
+		Senha : $("#inputPassword").val(),
+		tipoPerfil : $('input[name=inlineRadioOptions]:checked', '#formCadastrar').val()
 	});
 	AdicionarLogin(usuario);
 });
